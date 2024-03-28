@@ -3,15 +3,22 @@ Facial Attendance Recorder System using Tensorflow
 
 ## About
 <!--Detailed Description about the project-->
+
 -Face detection also called facial detection is an artificial intelligence (AI) based computer technology used to find and identify human faces in digital images. Everything else including buildings, automobiles, and trees is disregarded in favour of detecting face traits. When faced with a complicated visual landscape, humans are particularly adept at navigating faces. They are able to identify a face and match it to a recognized individual in order to retrieve information about that person, including name and other details. In a fraction of a second, everything occurs easily. Because of this, the most active topic of computer science research in vision is face identification. It is more frequently used for video surveillance. To identify a human face in a bigger image and disregard other objects, face detection programs employ algorithms and machine learning. 
 
 ## Features
 <!--List the features of the project as shown below-->
+
 -	Facial Recognition: Facial attendance recorder systems utilize advanced facial recognition algorithms to accurately identify individuals based on unique facial features.
+-	
 - Attendance Tracking: The system records attendance by matching detected faces with pre-registered profiles in the system's database.
+- 
 -	Database Management: Facial data of individuals, along with their attendance records, are securely stored in a centralized database for efficient management and monitoring.
+-	
 -	Real-time Updates: Attendance information is updated in real-time, providing administrators with instant access to attendance data.
+-	
 -	Reporting: Some systems offer reporting functionalities, allowing administrators to generate attendance reports for analysis and decision-making purposes.
+-	
 -	User Interface: User-friendly interfaces are provided for both administrators and users, facilitating easy interaction with the system to view attendance status and manage settings.
 
 
@@ -64,8 +71,11 @@ Efforts to mitigate biases, ensure algorithmic transparency, and promote diversi
 
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+[1]	"Attendance Management System Using Biometrics" by O.A. Idowu and O. Shoewu provides a detailed exploration of attendance management systems utilizing biometric technology, offering insights into the integration of biometrics in attendance tracking.
+
+[2]	Arulogun OT, Olatunbosun A, Fakolujo OA, Olaniyi OM (2013) RFID-based students attendance management system. Int J Eng Sci Res 4(2)
+
+[3]	Hameed MAJ (2017) Android-based smart student attendance system. Int Res J Eng Technol 12:2395–2356
 
 
 
