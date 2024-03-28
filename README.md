@@ -1,44 +1,52 @@
 ## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+Facial Attendance Recorder System using Tensorflow 
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+-Face detection also called facial detection is an artificial intelligence (AI) based computer technology used to find and identify human faces in digital images. Everything else including buildings, automobiles, and trees is disregarded in favour of detecting face traits. When faced with a complicated visual landscape, humans are particularly adept at navigating faces. They are able to identify a face and match it to a recognized individual in order to retrieve information about that person, including name and other details. In a fraction of a second, everything occurs easily. Because of this, the most active topic of computer science research in vision is face identification. It is more frequently used for video surveillance. To identify a human face in a bigger image and disregard other objects, face detection programs employ algorithms and machine learning. 
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+-	Facial Recognition: Facial attendance recorder systems utilize advanced facial recognition algorithms to accurately identify individuals based on unique facial features.
+- Attendance Tracking: The system records attendance by matching detected faces with pre-registered profiles in the system's database.
+-	Database Management: Facial data of individuals, along with their attendance records, are securely stored in a centralized database for efficient management and monitoring.
+-	Real-time Updates: Attendance information is updated in real-time, providing administrators with instant access to attendance data.
+-	Reporting: Some systems offer reporting functionalities, allowing administrators to generate attendance reports for analysis and decision-making purposes.
+-	User Interface: User-friendly interfaces are provided for both administrators and users, facilitating easy interaction with the system to view attendance status and manage settings.
+
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
+* Hardware Requirements:
+Computer with sufficient processing power (CPU/GPU) to run TensorFlow efficiently.
+Webcam or camera for capturing facial images.
+*Software Requirements:
+
+*TensorFlow framework: TensorFlow provides the necessary tools for building and training deep learning models, including those for facial recognition.
+*Python programming language: TensorFlow is typically used with Python for building and training models.
+*OpenCV: OpenCV is a library used for image processing and manipulation, and it's often used in conjunction with TensorFlow for tasks such as capturing images from a camera.
+*Database management system: You'll need a system to store and manage attendance records. This could be a relational database like MySQL or SQLite, or a NoSQL database like MongoDB
 * Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
+![image](https://github.com/durga46/Projectwork2/assets/75235704/94aa5e94-6f58-4803-9c8e-b195f5204268)
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+
 
 
 ## Output
 
 <!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output1 - Attendance recording page
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+![image](https://github.com/durga46/Projectwork2/assets/75235704/eca97ff5-e738-47b1-9587-77f4b2339b59)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+
+#### Output2 - Database storing
+
+![image](https://github.com/durga46/Projectwork2/assets/75235704/43baad99-3682-4d3c-8690-0861e94aee08)
+
 
 Detection Accuracy: 96.7%
 Note: These metrics can be customized based on your actual performance evaluations.
@@ -46,9 +54,14 @@ Note: These metrics can be customized based on your actual performance evaluatio
 
 ## Results and Impact
 <!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+In conclusion, facial attendance recording systems offer a promising solution for automating attendance tracking in various environments, including educational institutions, workplaces, and public venues.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+These systems leverage facial recognition technology to accurately and efficiently identify individuals, record their attendance, and generate comprehensive attendance reports. 
+
+Moreover, the potential for bias and discrimination in facial recognition algorithms underscores the importance of fairness and equity in system design and implementation. 
+
+Efforts to mitigate biases, ensure algorithmic transparency, and promote diversity and inclusion are critical to building trust and confidence in facial attendance recording systems.
+
 
 ## Articles published / References
 1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
